@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+h1{
+    font-family: 'Playfair Display', serif;
+}
+h2, h3, h4, h5, p, span, ul{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 153, 22);
+}
+
+.botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 153, 22);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botonera li{
+    padding: 15px;
+}
+
+.botonera li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+#home{
+    display: flex;
+    justify-content: end;
+    padding: 300px;
+    background-image: url("img/img-principal.png");
+    background-size: cover;
+}
+
+#paisajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 172, 47);
+    padding:100px;
+}
+
+.galeria{
+    display: flex;
+ }
+
+.galeria-item{
+    background-color: #F4D3D3;
+    margin: 50px;
+}
+.galeria-item-imagen{
+    width: 100%;
+}
+.galeria-item-texto{
+    padding: 50px 20px;
+}
+
+
+#santa-maria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #fb8351;
+    
+}
+
+.sta-maria-img{
+    width: 300px;
+}
+
+.santa-maria-descripcion{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+
+
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #090580;
+    padding:50px;
+}
+
+.casa-rodante{
+    width: 150px;
+}
+
+.mapa{
+    width: 600px;
+}
